@@ -21,5 +21,3 @@ select vehicle_type, AVG(Customer_Rating) AS AVERAGE_RATING  from ola_rides grou
 select SUM(booking_value ) AS SUMMATION from ola_rides where booking_status = 'Success'
 
 SELECT  booking_id, Incomplete_Rides_Reason FROM ola_rides where Incomplete_Rides = 1;
-
-
